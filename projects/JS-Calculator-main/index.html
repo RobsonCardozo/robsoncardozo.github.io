@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JS's Calculator">
+    <meta name="keywords" content="JavaScript, Calculator">
+    <meta name="author" content="Robson Cardozo">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://robsoncardozo.github.io">
+    <title>JS Calculator by Robson Cardozo</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <center><div class="title">JS Calc</div></center>
+  <center><table border="1">
+      <tr>
+        <td><input type="button" value="c" onclick="clr()" /></td>
+        <td colspan="3"><input type="text" id="calc" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="+" onclick="dis('+')" /></td>
+        <td><input type="button" value="1" onclick="dis('1')" /></td>
+        <td><input type="button" value="2" onclick="dis('2')" /></td>
+        <td><input type="button" value="3" onclick="dis('3')" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="-" onclick="dis('-')" /></td>
+        <td><input type="button" value="4" onclick="dis('4')" /></td>
+        <td><input type="button" value="5" onclick="dis('5')" /></td>
+        <td><input type="button" value="6" onclick="dis('6')" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="*" onclick="dis('*')" /></td>
+        <td><input type="button" value="7" onclick="dis('7')" /></td>
+        <td><input type="button" value="8" onclick="dis('8')" /></td>
+        <td><input type="button" value="9" onclick="dis('9')" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="/" onclick="dis('/')" /></td>
+        <td><input type="button" value="." onclick="dis('.')" /></td>
+        <td><input type="button" value="0" onclick="dis('0')" /></td>
+        <td><input type="button" value="=" onclick="solve()" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="+/-" onclick="sign()" /></td>
+        <td><input type="button" value="sqrt" onclick="sqrt()" /></td>
+        <td><input type="button" value="x²" onclick="square()" /></td>
+        <td><input type="button" value="x³" onclick="cube()" /></td>
+      </tr>
+    </table>
+  </center>
+  <script src="script.js"></script>
+</body>
+
+</html>
